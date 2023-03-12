@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@200;300;400;600;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Sora";
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    background-color: rgb(8, 8, 65);
+    padding: 20px 70px;
+    justify-content: space-between;
+    
+         
+}
+.navbar img{
+    width: 150px;
+}
+.navbar_logo{
+    display: flex;
+}
+.navbar_dashboard{
+    display: flex;
+    gap: 2rem;
+    
+
+}
+.navbar_dashboard button{
+    background-color: rgb(8, 8, 65);
+    color: white;
+    text-decoration: none;
+    border: none;
+    font-size: 15px ;
+    padding: 5px 8px;
+}
+.navbar_dashboard i{
+    color: white;
+}
+.main .color{
+    color: rgb(8, 8, 65);
+    
+}
+.main{
+    font-size: 50px;
+    font-weight: 600;
+}
+.main_page{
+    margin-top: 50px;
+    margin-left: 80px;
+    margin-right: 80px;
+    
+    display: flex;
+}
+.img img{
+    width: 450px;
+}
+.main_page p{
+    font-size: 15px;
+    color: gray;
+    margin-top: 10px;
+}
+.main_page button{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background-color: rgb(8, 8, 65);
+    color: white;
+    text-decoration: none;
+    border: none;
+    font-size: 15px ;
+    padding: 10px 10px;
+    margin-top: 10px;
+    
+
+}
+.img_2 img{
+    width: 100px;
+}
+.register p{
+    font-size: 15px;
+    color: gray;
+    margin-top: 10px;
+}
+.vaccination{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    padding: 10px;
+    gap: 5rem;
+    
+}
+.baby_info{
+    padding: 30px 70px ;
+-webkit-box-shadow: -5px 3px 10px -3px rgba(0,0,0,0.75);
+-moz-box-shadow: -5px 3px 10px -3px rgba(0,0,0,0.75);
+box-shadow: -5px 3px 10px -3px rgba(0,0,0,0.75);
+    margin: 30px 100px;
+    
+    border-radius: 10px;
+   
+}
+.baby_info h2{
+    text-align: center;
+    margin-bottom: 80px;
+}
+.register{
+    text-align: center;
+    width: 300px;
+}
+footer{
+    text-align: center;
+    background-color: rgb(8, 8, 65) ;
+    color: white;
+    padding: 30px;
+}
+.login_main {
+    border: 1px solid white !important;
+   
+   
+}
+.register_main{
+    border: 1px solid white !important;
+    background-color: white !important; 
+    color: black !important ;
+}
+.dashboard_list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    gap: 4rem;
+}
+.children img{
+    width: 200px ;
+   
+}
+.children{
+    color: white;
+    background-color: rgb(8, 8, 65) ;
+}
+.child_info{
+    display: flex;
+   
+    -webkit-box-shadow: -5px 3px 10px -3px rgba(0,0,0,0.75);
+    -moz-box-shadow: -5px 3px 10px -3px rgba(0,0,0,0.75);
+    box-shadow: -5px 3px 10px -3px rgba(0,0,0,0.75);
+    padding: 30px;
+    margin: 0px 350px;
+    align-items: center;
+
+
+}
+.child_info button{
+    background-color: rgb(8, 8, 65);
+    display: flex;
+    color: white;
+    text-decoration: none;
+    border: none;
+    font-size: 15px ;
+    padding: 5px 8px;
+
+}
+.login img{
+    width: 400px;
+}
+.login_info h3{
+    font-size: 25px;
+    font-weight: 600;
+}
+.login_info p{
+    color: #727272;
+    font-size: 14px;
+}
+.main_info{
+    display: flex;
+    gap: 5rem;
+    margin: 40px 40px;
+   
+   
+}
+.login{
+    margin-left: 50px;
+}
+.lable lable{
+    color: #333;
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 10px;
+
+}
+.lable input{   
+    border: 1px solid #72727298;
+    font-size: 14px;
+    outline: none;
+    padding: 12px;
+    width: 350px;
+    margin-top: 10px;
+}
+.lable{
+    display: flex;
+    flex-direction: column;
+}
+.form{
+    -webkit-box-shadow: -5px 3px 10px -3px rgba(0,0,0,0.75);
+    -moz-box-shadow: -5px 3px 10px -3px rgba(0,0,0,0.75);
+    box-shadow: -5px 3px 10px -3px rgba(0,0,0,0.75);
+
+    border-radius: 10px;
+    padding: 20px 40px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+   
+}
+.form button{
+    margin-top: 10px;
+    background-color: rgb(8, 8, 65);
+    color: white;
+    text-decoration: none;
+    border: none;
+    font-size: 15px ;
+    padding: 5px 8px;
+    margin-bottom: 10px;
+
+
+}
+.name_info p{
+    align-items: center;
+   display: flex;
+    font-size: 15px;
+    font-weight: 500;
+    justify-content: space-between;
+    margin-top: 5px;
+}
